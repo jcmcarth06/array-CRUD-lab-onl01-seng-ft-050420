@@ -3,23 +3,27 @@ def create_an_empty_array
 end
 
 def create_an_array
-  voyager = [tuvok, janeway, chakotay, seven]
+  voyager = ["tuvok", "janeway", "chakotay", "seven"]
 end
 
 def add_element_to_end_of_array(array, element)
-  voyager << "neelix"
+  array = ["wow", "I", "am", "really", "learning"]
+  array << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-  voyager.unshift(paris)
+  array = ["I", "am", "really", "learning"]
+  array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  neelix = voyager.pop
+  array = ["I", "am", "really", "learning", "arrays!"]
+  arrays! = array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  tuvok = voyager.shift
+  array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  wow = array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
